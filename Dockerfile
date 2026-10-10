@@ -9,4 +9,4 @@ COPY . /app
 
 EXPOSE 5000
 
-CMD ["python", "src/predict.py"]
+CMD ["python", "app.py"]
